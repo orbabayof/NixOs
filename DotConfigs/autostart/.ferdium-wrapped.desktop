@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=.ferdium-wrapped
+Comment=.ferdium-wrappedstartup script
+Exec=/nix/store/0dk1qlf1svld9p8hpmxl42s0ij70g3xs-ferdium-6.6.0/opt/Ferdium/.ferdium-wrapped
+StartupNotify=false
+Terminal=false
