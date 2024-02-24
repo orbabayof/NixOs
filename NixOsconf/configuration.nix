@@ -3,12 +3,13 @@
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
 { config, lib, pkgs, ... }:
-
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-    ];
+      ./nixnvim.nix
+      
+    ];  
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -60,12 +61,25 @@
   windowManager = {
 	#dwm.enable = true;
 	qtile.enable = true;
-	qtile.extraPackages = python3Packages: with python3Packages; [
+	qtile.extraPackages = python311Packages: with python311Packages; [
  	 (qtile-extras.overridePythonAttrs(old: { disabledTestPaths = [ "test/widget/test_strava.py" ]; })) #workarounbd for strava test not working, strava will not work
 	];
   };
 };
+
+
+#trying to install hyprland!
   
+ # programs.hyprland = {
+ #   enable = true;
+ #   enableNvidiaPatches = true;
+ #   xwayland.enable = true;
+#	};
+
+ hardware = {
+      opengl.enable = true;
+      nvidia.modesetting.enable = true;
+  };
   
   # Configure keymap in X11
  #  services.xserver.xkb.layout = "us,il";
@@ -129,7 +143,15 @@
      mariadb
      zafiro-icons
      ranger
-     #python311Packages.qtile-extras
+     python311Packages.iwlib
+     python311Packages.dbus-next	
+     rofi
+     neofetch
+     papirus-icon-theme
+     numix-icon-theme
+     dunst
+     eww
+    # wofi
    ];
   fonts.packages = with pkgs; [
   noto-fonts

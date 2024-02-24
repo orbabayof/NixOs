@@ -1,3 +1,6 @@
-2024/02/16-06:57:49.126 4add Reusing MANIFEST /home/Light/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
-2024/02/16-06:57:49.127 4add Recovering log #16
-2024/02/16-06:57:49.128 4add Reusing old log /home/Light/.config/Todoist/Local Storage/leveldb/000016.log 
+2024/02/20-16:44:13.663 1179a Reusing MANIFEST /home/Light/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
+2024/02/20-16:44:13.664 1179a Recovering log #20
+2024/02/20-16:44:13.666 1179a Reusing old log /home/Light/.config/Todoist/Local Storage/leveldb/000020.log 
+2024/02/20-17:06:08.412 1179a Level-0 table #24: started
+2024/02/20-17:06:08.418 1179a Level-0 table #24: 21126 bytes OK
+2024/02/20-17:06:08.420 1179a Delete type=0 #20

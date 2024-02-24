@@ -84,7 +84,7 @@ keys = [
     Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating on the focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod], "p", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
+    Key([mod], "p", lazy.spawn("rofi -show drun"), desc="Spawn a command using a prompt widget"),
     #Key([mod], "space", lazy.widget["keyboardlayout"].next_keyboard(), desc="Next keyboard layout."),
 
 #####Brightness

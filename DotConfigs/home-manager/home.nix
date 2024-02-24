@@ -1,5 +1,4 @@
-{ config, pkgs, ... }:
-
+{ config, pkgs,lib, ... }:
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -28,13 +27,23 @@
         name = "Nordic";
     };
     iconTheme = {
-        package = pkgs.zafiro-icons;
-        name = "Zafiro-Nord-Dark-Black";
+        package = pkgs.papirus-icon-theme;
+        name = "Papirus";
     };
   };
   services = {
     picom = {
-        enable = true;
+        enable = false;
+        backend = "glx";
+        fade = true;
+        fadeDelta = 8;
+        fadeSteps = [
+                     0.01
+                     0.02   
+        ]; #First - in, Second - out
+        #inactiveOpacity = 0.95;
+        
+
     };
   };
 

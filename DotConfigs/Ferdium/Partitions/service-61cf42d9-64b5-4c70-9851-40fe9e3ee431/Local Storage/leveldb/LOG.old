@@ -1,3 +1,6 @@
-2024/02/16-17:04:31.488 c7b2d Reusing MANIFEST /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Local Storage/leveldb/MANIFEST-000001
-2024/02/16-17:04:31.488 c7b2d Recovering log #77
-2024/02/16-17:04:31.488 c7b2d Reusing old log /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Local Storage/leveldb/000077.log 
+2024/02/21-13:05:29.978 1072d Reusing MANIFEST /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Local Storage/leveldb/MANIFEST-000001
+2024/02/21-13:05:29.978 1072d Recovering log #117
+2024/02/21-13:05:29.978 1072d Reusing old log /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Local Storage/leveldb/000117.log 
+2024/02/21-14:03:25.464 1072e Level-0 table #122: started
+2024/02/21-14:03:25.470 1072e Level-0 table #122: 15864 bytes OK
+2024/02/21-14:03:25.471 1072e Delete type=0 #117

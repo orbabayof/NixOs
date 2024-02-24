@@ -1,3 +1,6 @@
-2024/02/16-12:35:53.723 2e06d Reusing MANIFEST /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/16-12:35:53.723 2e06d Recovering log #14
-2024/02/16-12:35:53.731 2e06d Reusing old log /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/000014.log 
+2024/02/21-18:05:32.463 1be35 Reusing MANIFEST /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/21-18:05:32.463 1be35 Recovering log #32
+2024/02/21-18:05:32.474 1be35 Reusing old log /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/000032.log 
+2024/02/21-19:57:08.110 1be5d Level-0 table #37: started
+2024/02/21-19:57:08.134 1be5d Level-0 table #37: 895029 bytes OK
+2024/02/21-19:57:08.147 1be5d Delete type=0 #32

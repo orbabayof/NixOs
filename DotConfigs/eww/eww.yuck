@@ -1,0 +1,35 @@
+(defwindow screen
+    :monitor 0 ;;Specify monitor
+    :stacking "fg"
+    :windowtype "dock"
+    :wm-ignore false
+    :geometry (geometry
+        :width "90%"
+        :height "3%"
+        :anchor "top center"                
+    )
+    :reserve (struts :distance "50px" :side "top")
+    ;;(powermenu_layout)
+    (time)
+    
+    ) 
+(defwidget powermenu_layout []
+    (label)
+)
+(defwidget time []
+    (label :text "${time.hour} : ${time.min}")
+    :halign "end"    
+)
+(defpoll time :interval "5s"
+  `date +'{"hour":"%H","min":"%M"}'`
+)
+
+(defpoll net :interval "100s"
+    :initial `N/A`
+    `nmcli -t -f SIGNAL,ACTIVE device wifi \
+    | awk -F':' '{if($2=="yes")print$1}'`
+)
+
+
+
+
