@@ -7,7 +7,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./nixnvim.nix
+    #  ./nixnvim.nix
+    #  ./nixvimconf.nix
       
     ];  
   # Use the systemd-boot EFI boot loader.
@@ -18,7 +19,6 @@
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
    networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
-   hardware.bluetooth.enable = true;
   # Set your time zone.
   # time.timeZone = "Europe/Amsterdam";
     #time.timeZone = "Europe/Jerusalem";
@@ -56,42 +56,71 @@
   xkbOptions = "grp:alt_space_toggle";
   displayManager = {
 	defaultSession = "none+qtile";
-	lightdm.enable = true;
+      	#lightdm.enable = true;
+	sddm.enable = true;
+	sddm.theme = "chili";
   };
   windowManager = {
-	#dwm.enable = true;
+	dwm.enable = true;
 	qtile.enable = true;
 	qtile.extraPackages = python311Packages: with python311Packages; [
  	 (qtile-extras.overridePythonAttrs(old: { disabledTestPaths = [ "test/widget/test_strava.py" ]; })) #workarounbd for strava test not working, strava will not work
 	];
+	
+	#enabling bspwm 
+	bspwm  = {
+	  enable = true;
+	  sxhkd.configFile = "/home/Light/.config/bspwm/sxhkdrc";
+	};
   };
 };
 
 
 #trying to install hyprland!
+  boot.kernelParams = [ "i915.force_probe=9a49" ];
   
- # programs.hyprland = {
- #   enable = true;
- #   enableNvidiaPatches = true;
- #   xwayland.enable = true;
-#	};
+  programs.hyprland = {
+    enable = true;
+    enableNvidiaPatches = true;
+    xwayland.enable = true;
+	};
+    #xdg.portal.wlr.enable = true;
 
- hardware = {
-      opengl.enable = true;
-      nvidia.modesetting.enable = true;
+  hardware.opengl = {
+  enable = true;
+  #driSupport = true;
   };
-  
-  # Configure keymap in X11
- #  services.xserver.xkb.layout = "us,il";
-  # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
+ # services.xserver.videoDrivers = ["nvidia"];
+
+  #hardware.nvidia = {
+  #modesetting.enable = true;
+  #powerManagement.enable = false;
+  #powerManagement.finegrained = false;
+  #open = false;
+  #nvidiaSettings = true;
+  #prime = {
+  #  intelBusId = "PCI:0:2:0";
+  #  nvidiaBusId = "PCI:1:00:0";
+  #  sync.enable = true;
+  #};
+#};
+
+
+  hardware.mwProCapture.enable = true;
   # Enable CUPS to print documents.
   # services.printing.enable = true;
 
   # Enable sound.
-   #sound.enableMediaKeys = true;
+   sound.mediaKeys.enable = true;
    sound.enable = true;
    hardware.pulseaudio.enable = true;
+
+   #bluetooth
+
+   hardware.bluetooth.enable = true; # enables support for Bluetooth
+   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+   services.blueman.enable = true;
 
   # Enable touchpad support (enabled default in most desktopManager).
    services.xserver.libinput.enable = true;
@@ -111,7 +140,7 @@
    services.mysql.enable = true;
    services.mysql.package = pkgs.mariadb;
    programs.thunar.enable = true; 
-
+    
   # List packages installed in system profile. To search, run:
   # $ nix search wget
    environment.systemPackages = with pkgs; [
@@ -144,28 +173,56 @@
      zafiro-icons
      ranger
      python311Packages.iwlib
-     python311Packages.dbus-next	
+     python311Packages.dbus-next
+     python311Packages.pip
      rofi
      neofetch
      papirus-icon-theme
      numix-icon-theme
      dunst
      eww
-    # wofi
+     libnotify
+     nurl
+     libev
+     alsa-utils
+     wpsoffice
+     wmctrl
+     xkblayout-state
+     veracrypt
+     nitrogen
+     xorg.xinit
+     xdotool
+     sxhkd
+     zoom-us
+     killall
+     dmenu
+     gnumake
+     xorg.libX11
+     brave
+     sddm
+     wofi
+     sddm-chili-theme
+     wpgtk
+     google-chrome
+     ayu-theme-gtk
+     unzip
+     obs-studio
    ];
   fonts.packages = with pkgs; [
   noto-fonts
   noto-fonts-cjk
   noto-fonts-emoji
   liberation_ttf
-  fira-code
-  fira-code-symbols
+  #fira-code
+  #fira-code-symbols
   mplus-outline-fonts.githubRelease
   dina-font
   proggyfonts
   font-awesome
   font-awesome_5
   hack-font
+  #fira-code-nerdfont
+  xorg.fontadobe75dpi
 ];
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

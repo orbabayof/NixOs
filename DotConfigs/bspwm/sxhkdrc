@@ -1,0 +1,65 @@
+#bspwm and sxhkd reload
+alt + r
+    pkill -usr1 -x sxhkd;/home/Light/.config/bspwm/bspwmrc; notify-send --app-name 'BSPWM & sxhkd ' 'bspwm & sxhkd configs reloaded!'
+
+alt + Return
+    kitty
+ 
+alt+q
+    bspc quit
+
+#apps lunch 
+alt+w  
+	firefox
+
+alt+s 
+    gscreenshot
+
+
+alt+p
+    rofi -show drun
+
+
+
+#kill window
+alt+c  
+	wmctrl -c `xdotool getwindowfocus` -i 
+
+#close window 
+alt+shift+c  
+	xdotool getwindowfocus windowclose
+
+# Cycle layouts (tiled and monocle)
+alt+s
+    bspc desktop focused --layout next
+
+# Raise window gap by 5px
+super+KP_Add
+	bspc config window_gap $(( 5 + `bspc config window_gap` ))
+
+# Lower window gap by 5px
+super+KP_Subtract
+	bspc config window_gap $(( -5 + `bspc config window_gap` ))
+
+#toggle floating
+super+f 
+    bspc node focused -t \~floating
+#move between desktops
+alt+{1,2,3,4,5,6}
+	bspc desktop -f ^$(( {0,1,2,3,4,5} + 1 ))
+#move nodes to diffrent desktops
+
+alt+shift+{1,2,3,4,5,6}
+	workspace=^$(( {0,1,2,3,4,5} + 1 ));bspc node -f -d $workspace;bspc desktop -f $workspace
+
+#disable semi-fullscreen mode 
+
+alt+shift+f
+    bspc config window_gap 20;bspc config top_padding 60;eww close bar;eww open barFullgag;bspc config border_width 5;
+
+alt+t
+    (setxkbmap -query | grep -q "layout:\s+us") && setxkbmap il || setxkbmap us
+
+# volume
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+    ~/dotfiles/scripts/volume_dunst {down,up,mute}

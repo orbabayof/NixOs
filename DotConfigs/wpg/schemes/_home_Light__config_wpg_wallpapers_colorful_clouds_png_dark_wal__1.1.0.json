@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/Light/.config/wpg/wallpapers/colorful_clouds.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F1627",
+        "foreground": "#b5ffff",
+        "cursor": "#b5ffff"
+    },
+    "colors": {
+        "color0": "#0F1627",
+        "color1": "#B42E47",
+        "color2": "#9D3354",
+        "color3": "#FA9C75",
+        "color4": "#346D8D",
+        "color5": "#C856A5",
+        "color6": "#E35964",
+        "color7": "#86cfcf",
+        "color8": "#1c2a4b",
+        "color9": "#f82d53",
+        "color10": "#d93468",
+        "color11": "#ffc080",
+        "color12": "#3791c3",
+        "color13": "#ff5ddd",
+        "color14": "#ff5f70",
+        "color15": "#b5ffff"
+    }
+}

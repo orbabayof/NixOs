@@ -1,0 +1,23 @@
+*{
+    all: unset;
+    font-size: 1.5rem;
+}
+.bar{
+    background-color: #212733;
+}
+.time_off{
+    padding-left: 10px;
+    margin: 2px;
+    background-color: rgb(92, 103, 115);
+    border-radius: 10px;
+}
+.bat,.net{
+    margin: 10px;
+}
+.WifiVol{
+    padding: 5px;
+}
+.WifiVol.hover {
+    background-color: #3b4252;
+    border-radius: 15px;
+}

@@ -1,0 +1,14 @@
+{
+   "ExtnMarket": {
+      "Description": "Market",
+      "message": "fr-fr"
+   },
+   "extDescription": {
+      "description": "Description of this extension",
+      "message": "Affichez l'image de la page d'accueil Microsoft Bing et plus encore dans le nouvel onglet."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Nouvel onglet Microsoft Bing avec option de recherche"
+   }
+}

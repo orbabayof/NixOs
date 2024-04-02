@@ -1,0 +1,28 @@
+#!/bin/sh
+
+kill_and_wait () {
+    if [[ `pgrep -c "$1"` -gt 0 ]]
+    then
+        killall "$1"
+        while [[ `pgrep -c "$1"` -gt 0 ]];
+        do
+            sleep 0.1
+        done;
+    fi;
+}
+
+
+# Set cursor
+xsetroot -cursor_name left_ptr &
+
+# daemons
+kill_and_wait dunst
+dunst > /dev/null 2> /dev/null &
+thunar --daemon&
+kill_and_wait sxhkd
+sxhkd -c ~/.config/bspwm/sxhkdrc > /dev/null 2> /dev/null&
+
+#nitrogen restore 
+nitrogen --restore >/dev/null 2>&1 &
+eww kill &
+eww open bar  >/dev/null 2>&1 &

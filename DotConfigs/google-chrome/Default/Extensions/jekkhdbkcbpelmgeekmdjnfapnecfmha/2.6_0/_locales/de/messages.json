@@ -1,0 +1,14 @@
+{
+   "ExtnMarket": {
+      "Description": "Market",
+      "message": "de-de"
+   },
+   "extDescription": {
+      "description": "Description of this extension",
+      "message": "Auf der neuen Registerkarte sehen Sie das Bild für die Microsoft Bing-Homepage und mehr."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Microsoft Bing als Standardsuchmaschine"
+   }
+}

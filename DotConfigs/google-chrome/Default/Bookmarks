@@ -1,0 +1,92 @@
+{
+   "checksum": "a1a9e4927b7bd6699b973f7a14ff592e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13314145847217575",
+            "date_last_used": "0",
+            "guid": "40a3a0fd-ca86-426f-b46e-139e1bcc2e41",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13314145847216021",
+            "date_last_used": "13317313538814986",
+            "guid": "03ab30b0-2840-43a7-96f5-3c0381e51e87",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13330903497084330",
+            "date_last_used": "0",
+            "guid": "338d1151-8f43-4da4-ad72-f13fd7c1de8e",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13332428940889037",
+            "date_last_used": "0",
+            "guid": "56f8084b-7460-4d2e-9b72-99c31a11f502",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube Music",
+            "type": "url",
+            "url": "https://music.youtube.com/"
+         } ],
+         "date_added": "13354446543985998",
+         "date_last_used": "0",
+         "date_modified": "13332428940889037",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13354446543986000",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13192475096908924",
+            "date_last_used": "0",
+            "guid": "db36f338-b903-42e4-859f-81c6c3de1833",
+            "id": "9",
+            "meta_info": {
+               "last_visited": "13194455805996312"
+            },
+            "name": "Get Fortnite",
+            "type": "url",
+            "url": "https://www.epicgames.com/fortnite/en-US/buy-now/battle-royale"
+         } ],
+         "date_added": "13354446543986001",
+         "date_last_used": "0",
+         "date_modified": "13192475096908924",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CqoBCokBCIiBAhKCASAAkgF9CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCVjmNH05EwYAEVjmNH05EwYAKSYFNX05EwYACkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJACKMdzkTBgARACKMdzkTBgAp6OI0fTkTBgAwgMSwvJfnhAMSACoYSFZicEZDRTJsK1JCcjFaRTVMcVNIdz09SAMSrAIICRKnAgocTTN2ckpzM25BZFBlY3hwbkdhUmFyQUZOcC9NPRKmAVo6QURxdEFad2RYdVZYQkZEMVJ6Ujc4dHJCaWxJWisxbmhVYlBTdW9VWERmZ3NqSUU4UlhQNFZPeHlxNlVsTk0vbjZTL2p3K2dPSkdoVHduaDdwOFluWVZ4eUluU0JuYXNnRUJXdzZRK2JhODlmZW9KTkRrTXUvN3NnWC9EUzlFQU1HS204SnFNR1lRV2hLK3c0QXhETkljdWo4cjZ6c3RUL1J3PT0YACAAKAAwxuy8/bma9AI4gdnW4IYtQIHZ1uCGLUocZEdmM0NmamxXcVdtakhuZGd4aENGQlZpNXJFPVoeIhwwWU5RQkpYOFB3THhwS3lSUDgyV0k2ZkEzVmM9Zc6URfMS7QEICBLoAQoceGlONTNsUUtJVTBhTU84U1NGYnNWZlNiR080PRJmWjpBRHF0QVp3MGtpSkVLcndoMlJkdzZrMi9hRlNxYXFMMmJYU2NvaVdTUEhxRzZoZjczQ2xiL0NBVzFvYm5UcnZpYVJsZVBYaHpPeGVTbmRLQWd3SXc2MW9xa1AxWGtwVmkrZz09GAAgAigCMIzjpJfi5oQDONn86Y+QMUDY/dmS4jFKHCt0WnNyekFKNkI5WlJZdUFmOFFhbnhUY2N6Zz1aICIe/91oSUxDWGRXSFZ1bFRROHovYTdrVUQ1L1NnRkk9ZbxmcpsS7QEIBxLoAQocalJybkV4OGtwVzJ5ZWM5MlFvbUoxV3o5QitRPRJmWjpBRHF0QVp3MGtpSkVLcndoMlJkdzZrMi9hRlNxS3lBN1RjTmZmeWI1a1ByNHR2RkhTOXF0R3BNWEZsMXRoWEFXeXVKL21Ia0dObjJ4bUNBdEJFdGtmWEhHT0FPSUtONkx0dz09GAAgAigCMIzjpJfi5oQDOP2iuLiKMUDX/dmS4jFKHG5kRm1yWURJd3BCSWZ6U25obHU5dy9kNjJwWT1aICIe/7o1UE5xem1KVjhLK3VWVmpuTTE3bXc2RGQ1NzQ9ZTj5OTMS7AEIBhLnAQocZFNNbnVkQjFEUVExVzM3MDNhdm9kZmtKZGF3PRJmWjpBRHF0QVp3MGtpSkVLcndoMlJkdzZrMi9hRlNxSThHM3h4VHBZV1RiUHZiMUlkNE04UWlhSGQ3OWtZWFA3S1oyK1JmdmRxOFc3WFgyd1BUWXJpUnNwZXdSNWJra2NSUjFqQT09GAAgAigCMIzjpJfi5oQDONP5+IHMMEDX/dmS4jFKHHlVYjcvaW52MHI5ZWg5MWtaSUh4MHFaN1FUZz1aHyId/FM1dU9aMWd3MThIWlhQektpRnNENU5Samp6VT1lmz2FthLsAQgFEucBChxPTzRVN0c0eG1uNHRPTkJrQVAwQVZjM3JhZVE9EmZaOkFEcXRBWncwa2lKRUtyd2gyUmR3NmsyL2FGU3FPMWI2N1BhWTZHTncwY2dXUDdFVVlzTmt3TXhtWmpYSjVPR25BZzFoMDNzMzMvbHlyeWVJdm81MFdxUFVCWHNURHdYcXFBPT0YACACKAIwjOOkl+LmhAM40/n4gcwwQNf92ZLiMUocTTA4aGl2WlVxME5zaEFLMWw4K29XZ25GcDIwPVofIh36cm05YWRac0RRd1JHMFZYQ2IzNVZYZHNoMW1FPWWk++iYEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad3RlWUtxUmhIYzJ1a1BDVmZxZzBwZ05yOTBoNWovWlM2T1VtZVZraFZmQmhna3NWdnhRUVY1eTNubUw0ZUVYRVRuTmh3L0tDTVZ6NlhURHF6Vm9mR2JIUXZLRnc9PRgAIAAoADDhgIOO4uaEAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeUc2b2ZKU0VZcDIzbWR2YmVPbHE4TFlsNzlWSHZIZUJDZy9EaGdhWEM5TTArNkxWL0hnUE9OSm1vd0RxY3VqQ2paRlNrdBgAIAAoADDhgIOO4uaEAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeFpnMjV3ZjdlK096ZDZLR3hONFJXdWFsd1ArVWdMQWhIQ2FZZUI1Q1N6ZElsSG9MR0thVWx0YzYyZWdtQm5NU2NWVW9RK0FPVEdtM05xS0xmUzNhZjZtbmFUbnc9PRgAIAAoADDhgIOO4uaEAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

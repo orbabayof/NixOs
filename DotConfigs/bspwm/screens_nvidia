@@ -1,0 +1,18 @@
+if [[ $(xrandr -q | grep 'HDMI-1-1 connected') ]]; then
+    # xrander with dual screens
+    xrandr --output HDMI-1-1 --crtc 0 --mode 1920x1200 --pos 0x0 --primary --rate 59.95 --output eDP-1-1 --crtc 1 --mode 1920x1080 --pos 1920x0 --rate 60.00 
+    # Workspaces with both screens
+    bspc monitor HDMI-1-1 -d 0 1 2 3 4 
+    bspc monitor DP-1-1 -d 5
+    bspc config -m eDP-1-1 top_padding 0
+    bspc config -m HDMI-1-1 top_padding 42.5
+else
+    # xrander with one screen
+    xrandr --output HDMI-1-1 --off --output eDP-1-1 --crtc 0 --mode 1920x1080 --pos 0x0 --primary --rate 60.00 --set "broadcast_rgb" "Automatic" --set "colorspace" "Default" --set "max_bpc" 12 --set "non_desktop" 0 --set "scaling_mode" "Full aspect"
+    bspc config -m eDP-1-1 top_padding 35
+    # Remove monitor when unplagged
+    bspc monitor HDMI-1-1 -r
+
+    # Workspaces with one screen
+    bspc monitor eDP-1-1 -d 0 1 2 3 4 
+fi

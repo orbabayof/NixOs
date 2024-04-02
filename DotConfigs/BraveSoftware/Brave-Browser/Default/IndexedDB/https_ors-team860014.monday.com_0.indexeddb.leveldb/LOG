@@ -1,0 +1,10 @@
+2024/03/14-13:43:08.078 4a9a Reusing MANIFEST /home/Light/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ors-team860014.monday.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/14-13:43:08.078 4a9a Recovering log #13
+2024/03/14-13:43:08.078 4a9a Reusing old log /home/Light/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ors-team860014.monday.com_0.indexeddb.leveldb/000013.log 
+2024/03/14-13:43:08.078 4a9a Delete type=2 #11
+2024/03/14-13:43:14.459 4a9b Compacting 1@1 + 1@2 files
+2024/03/14-13:43:14.460 4a9b Generated table #17@1: 100 keys, 16998 bytes
+2024/03/14-13:43:14.460 4a9b Compacted 1@1 + 1@2 files => 16998 bytes
+2024/03/14-13:43:14.462 4a9b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/14-13:43:14.462 4a9b Delete type=2 #15
+2024/03/14-13:43:14.462 4a9b Delete type=2 #5

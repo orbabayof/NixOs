@@ -1,0 +1,135 @@
+(include "yuck/bar/dynamic/defpolls.yuck")
+(include "yuck/bar/dynamic/vars.yuck")
+(include "yuck/bar/dynamic/deflistens.yuck")
+
+(defwidget _battery [battery status one two three four five six charge]
+  (box :class "bat"
+  :halign "start"
+  ;;extra properties here
+  (label :text {status == 'Charging' ? charge :
+      battery < 15 ? six :
+        battery < 30 ? five :
+          battery < 45 ? four :
+            battery < 70 ? three :
+              battery < 85 ? two : one })))
+
+(defwidget _network [strength offline excellent good okay slow]
+  (box :class "net"
+    (label :text {strength == "" ? offline :
+      strength < 26 ? slow :
+        strength < 51 ? okay :
+          strength < 76 ? good : excellent})))
+
+(defwidget _vol [strength mute low medium high]
+  (box :class "vol"
+    (label :text {
+      strength == 0 ? mute : 
+      strength < 44 ? low:
+      strength < 77 ? medium : high 
+    })
+))
+
+;;time widget
+(defwidget time []
+  ;;extra properties here
+      (label 
+          :class "time"
+          :halign "end"
+          :text "${time.hour} 󰇙 ${time.min}  "
+  ))
+(defwidget date []
+(label 
+  :halign "center"
+  :text "${time.day_num} / ${time.month}  "
+))
+
+(defwidget keylayout []
+    (label :text "${klayout}")
+)
+
+
+;;workspaces
+
+(defwidget workspaces []
+  (box 
+    :orientation "h"
+    :halign "start"
+    :class "workspaces"
+    (box
+      :orientation "h"
+      :spacing 5
+      :space-evenly "false"
+      :class "${launch1}";;, ${launch2}, ${launch3}, ${launch4}
+      (eventbox
+        :cursor "pointer"
+        (button 
+          :tooltip "Switch to workspace 1"
+          :onclick "bspc desktop -f 0"
+          (label
+            :markup wp0 
+            :class "workspace_buttons")))
+      (eventbox
+        :cursor "pointer"
+        (button 
+          :tooltip "Switch to workspace 2"
+          :onclick "bspc desktop -f 1"
+          (label
+            :markup wp1 
+            :class "workspace_buttons")))
+      (eventbox
+        :cursor "pointer"
+        (button 
+          :tooltip "Switch to workspace 3"
+          :onclick "bspc desktop -f 2"
+          (label
+            :markup wp2 
+            :class "workspace_buttons")))
+      (eventbox
+        :cursor "pointer"
+        (button 
+          :tooltip "Switch to workspace 4"
+          :onclick "bspc desktop -f 3"
+          (label
+            :markup wp3 
+            :class "workspace_buttons")))
+      (eventbox
+        :cursor "pointer"
+        (button 
+          :tooltip "Switch to workspace 5"
+          :onclick "bspc desktop -f 4"
+          (label
+            :markup wp4 
+            :class "workspace_buttons")))
+    )))
+(defwidget powermenu []
+  (box 
+    :orientation "h"
+    :space-evenly true
+    :halign "center"
+    :class "workspaces"
+    (button 
+      :tooltip "cancel"
+      :onclick "eww close powermenu"
+      (label
+        :markup cancel
+        :class "powermenu_buttons"))
+    (button 
+      :tooltip "powerOFF"
+      :onclick "poweroff"
+      (label
+        :markup turnoff
+        :class "powermenu_buttons"))
+    (button 
+      :tooltip "restart"
+      :onclick "reboot"
+      (label
+        :markup restart 
+        :class "powermenu_buttons"))
+    (button 
+      :tooltip "exit"
+      :onclick "bspc quit"
+      (label
+        :markup exit
+        :class "powermenu_buttons"))
+  )
+)

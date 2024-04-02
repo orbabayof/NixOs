@@ -16,6 +16,12 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
+  imports = [
+    ./NixVim.nix
+    ./picom.nix
+  ];
+
+
   gtk = {
     enable = true;
     cursorTheme = {
@@ -24,26 +30,11 @@
     };
     theme = {
         package = pkgs.nordic;
-        name = "Nordic";
+        name = "Nordic-darker";
     };
     iconTheme = {
         package = pkgs.papirus-icon-theme;
         name = "Papirus";
-    };
-  };
-  services = {
-    picom = {
-        enable = false;
-        backend = "glx";
-        fade = true;
-        fadeDelta = 8;
-        fadeSteps = [
-                     0.01
-                     0.02   
-        ]; #First - in, Second - out
-        #inactiveOpacity = 0.95;
-        
-
     };
   };
 

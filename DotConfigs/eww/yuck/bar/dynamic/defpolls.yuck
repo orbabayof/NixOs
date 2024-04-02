@@ -1,0 +1,17 @@
+(defpoll time :interval "5s"
+  `date +'{"hour":"%H","min":"%M","day_num":"%d","month":"%m"}'`
+)
+
+(defpoll net :interval "100s"
+    :initial `N/A`
+    `nmcli -t -f SIGNAL,ACTIVE device wifi \| awk -F':' '{if($2=="yes")print$1}'`
+)
+
+(defpoll currentvol :interval "1s"
+    :initial 100
+    `amixer get Master | awk -F'[][]' 'NR==6 {print $2}' | sed 's/%//'`
+)
+(defpoll klayout :interval "100ms"
+    :initial "us"
+    `xkblayout-state print "%s"`
+)

@@ -1,0 +1,110 @@
+{
+   "checksum": "aa6a076e227c3c0ba2068d43b2246b03",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13352672262000000",
+            "date_last_used": "13354315314142160",
+            "guid": "85f3256d-e739-44ea-9952-7e00bd790f2d",
+            "id": "5",
+            "name": "wpgtk - pywall but better?",
+            "type": "url",
+            "url": "https://github.com/deviantfero/wpgtk"
+         }, {
+            "date_added": "13353710707000000",
+            "date_last_used": "13354347610773140",
+            "guid": "40fb211a-474a-4b31-aef3-3738e46c48c1",
+            "id": "6",
+            "name": "bspwm with eww ikz87 ",
+            "type": "url",
+            "url": "https://github.com/ikz87/dots-2.0/tree/main"
+         }, {
+            "date_added": "13353710751000000",
+            "date_last_used": "0",
+            "guid": "0e36a557-dae8-4e6a-93c8-ffae15cfda32",
+            "id": "7",
+            "name": "bspwm worth looking at (tokyo_night)",
+            "type": "url",
+            "url": "https://github.com/anantnrg/bspwm_tokyo_night"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13351945169000000",
+                  "date_last_used": "0",
+                  "guid": "c419cc81-dbd7-4cdb-b62f-ee2076cda4e2",
+                  "id": "10",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13351945169000000",
+                  "date_last_used": "0",
+                  "guid": "9fb7de5e-8827-4378-a027-0a89fa9188f9",
+                  "id": "11",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13351945169000000",
+                  "date_last_used": "0",
+                  "guid": "3db9fb45-6ff3-44f2-91ed-603524483ce5",
+                  "id": "12",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13351945169000000",
+                  "date_last_used": "0",
+                  "guid": "bdbbd315-102d-4a36-8848-00a9129bf7a9",
+                  "id": "13",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13354049532461305",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "0bed010b-af25-42d4-9cfd-f51cc409fcf9",
+               "id": "9",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13354049532461132",
+            "date_last_used": "0",
+            "date_modified": "13354049532461132",
+            "guid": "1b473ddc-e2f4-4884-aa7a-970d6f804d93",
+            "id": "8",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13354049513456994",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13354049513456996",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13354049513456998",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

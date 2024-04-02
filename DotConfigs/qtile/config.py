@@ -24,11 +24,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from libqtile import bar, layout, widget
+from libqtile import bar, layout, widget,hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from libqtile import qtile
+import os
+import subprocess
+
 
 from colors import nord_fox,gruvbox
 from unicodes import left_arrow,right_arrow
@@ -41,6 +44,7 @@ keys = [
     # at https://docs.qtile.org/en/latest/manual/config/lazy.html
     # Switch between windows
     Key([mod, "shift"], "f", lazy.spawn('ferdium')),
+    Key([mod, "shift"], "s", lazy.spawn('gscreenshot')),
     Key([mod], "w", lazy.spawn('firefox')),
     Key([mod], "d", lazy.spawn('todoist-electron')),
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -137,7 +141,11 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    layout.Columns(
+        border_focus_stack=["#d75f5f", "#8f3d3d"],
+        border_width=4,
+        margin = 0,
+        ),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
@@ -162,7 +170,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper='~/.config/Wallpapers/nord_alone_tree.png',
+        wallpaper='~/.config/Wallpapers/katana.jpg',
         wallpaper_mode='fill',
         top=bar.Bar(
             [
@@ -201,13 +209,15 @@ screens = [
                    update_interval = 0.1,
                    step = 5
                 ),
+                #widget.Systray(),
+                #left_arrow(gruvbox['dark-magenta'],gruvbox['magenta']),
                 widget.Clock(
-                    #format="%Y-%m-%d %a %I:%M %p"
-                    format="%I:%M %p"
-                    ),
+                    #background=gruvbox['magenta'],
+                    format=" %Y-%m-%d %a %I:%M %p"),
+                #widget.QuickExit(),
                 widget.Spacer(
                     length = 10
-                ),
+                )
             ],
             background = "#2e3440",    #nord color
             size = 24,
@@ -221,7 +231,8 @@ screens = [
         # x11_drag_polling_rate = 60,
     ),
     Screen(
-        wallpaper='~/.config/Wallpapers/ign_dudeOnBuilding3.png',
+        
+        wallpaper='~/.config/Wallpapers/buildings.png',
         wallpaper_mode='fill',
         top=bar.Bar(
             [
@@ -282,7 +293,6 @@ screens = [
         # x11_drag_polling_rate = 60,
     ),
 ]
-
 # Drag floating layouts.
 mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),

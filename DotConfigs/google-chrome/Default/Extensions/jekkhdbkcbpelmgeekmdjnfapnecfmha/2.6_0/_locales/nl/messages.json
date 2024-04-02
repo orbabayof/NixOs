@@ -1,0 +1,14 @@
+{
+   "ExtnMarket": {
+      "Description": "Market",
+      "message": "nl-nl"
+   },
+   "extDescription": {
+      "description": "Description of this extension",
+      "message": "De startpagina-afbeelding van Microsoft Bing en nog meer extra’s worden nu weergegeven op het nieuwe tabblad."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Microsoft Bing nieuw tabblad met Bing Zoeken"
+   }
+}

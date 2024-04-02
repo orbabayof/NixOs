@@ -1,34 +1,55 @@
-(defwindow screen
+(include "yuck/bar/widgets.yuck")
+(include "yuck/bar/dynamic/actions/actions.yuck")
+(defwindow bar
     :monitor 0 ;;Specify monitor
-    :stacking "fg"
+    :stacking "bg"
     :windowtype "dock"
     :wm-ignore false
+    :class "bar"
     :geometry (geometry
-        :width "90%"
-        :height "3%"
+        :y "0%"
+        :width "100%"
+        :height "3.5%"
         :anchor "top center"                
     )
-    :reserve (struts :distance "50px" :side "top")
-    ;;(powermenu_layout)
-    (time)
+    :reserve (struts :distance "10%" :side "top")
+    (bar_layout)
     
-    ) 
-(defwidget powermenu_layout []
-    (label)
 )
-(defwidget time []
-    (label :text "${time.hour} : ${time.min}")
-    :halign "end"    
-)
-(defpoll time :interval "5s"
-  `date +'{"hour":"%H","min":"%M"}'`
+(defwindow barFullgag
+    :monitor 0 ;;Specify monitor
+    :stacking "bg"
+    :windowtype "dock"
+    :wm-ignore false
+    :class "bar"
+    :geometry (geometry
+        :y "1%"
+        :width "90%"
+        :height "3.5%"
+        :anchor "top center"                
+    )
+    :reserve (struts :distance "3.5%" :side "top")
+    (bar_layout)
+    
 )
 
-(defpoll net :interval "100s"
-    :initial `N/A`
-    `nmcli -t -f SIGNAL,ACTIVE device wifi \
-    | awk -F':' '{if($2=="yes")print$1}'`
+(defwindow powermenu
+    :monitor 0
+    :stacking "fg"
+    :windowtype "dialog"
+    :wm-ignore false
+    :geometry (geometry
+        :width "50%"
+        :height "20%"
+        :anchor "center"                
+    )
+    (powermenu)
 )
+
+
+
+
+
 
 
 

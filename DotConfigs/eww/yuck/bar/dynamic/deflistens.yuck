@@ -1,0 +1,3 @@
+(deflisten launch1 "scripts/workspaces")
+;;(deflisten launch2 "scripts/layout")
+;;(deflisten launch3 "scripts/media_info")

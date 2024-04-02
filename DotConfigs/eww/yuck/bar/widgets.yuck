@@ -1,0 +1,83 @@
+(include "yuck/bar/complex_widgets.yuck")
+;;(include "yuck/bar/exp.yuck")
+;;intire bar layout using boxes
+(defwidget bar_layout []
+    (box
+    :space-evenly true
+    (right_bar_layout)
+    (date)
+    (left_bar_layout)
+    )
+)
+
+(defwidget left_bar_layout[]
+    ;;extra properties here
+    (box
+    :space-evenly false
+    :halign "end"
+    :spacing 10
+    (keylayout)
+    (seperator)
+    (actions)
+    (seperator)
+    (battery)
+    (seperator)
+    (time)
+    )
+  )
+(defwidget right_bar_layout[]
+    (box
+    :space-evenly false
+    :halign "start"
+    :spacing 10
+    (spacer)
+    (power_toggle)
+    (seperator)
+    (workspaces)
+    )
+)
+
+;;power_menu_toggle
+(defwidget power_toggle[]
+    (button
+    :onclick "eww open powermenu"
+    (label 
+      :halign "start"
+      :markup "󰐥"))
+)
+
+(defwidget battery []
+  (_battery :status {EWW_BATTERY.BAT0.status}
+    :battery {EWW_BATTERY.BAT0.capacity}
+    :charge "󰂏" :one " " :two " " :three " " :four " "
+    :five " " :six "󰂃")
+)
+(defwidget network []
+  (_network :strength net :offline "󰤮 " :excellent "󰤨 " :good "󰤥 " :okay "󰤢 " :slow "󰤟 ")
+)
+(defwidget volume []
+  (_vol :strength currentvol :mute "󰝟 " :low "󰕿 " :medium "󰖀 " :high "󰕾 ")
+)
+(defwidget seperator []
+  (label :text "")
+)
+(defwidget spacer []
+  (label :text "")
+)
+
+(defwidget actions []
+  (eventbox
+  :onhover "eww update actionsClass=\"hover WifiVol\""
+  :onhoverlost "eww update actionsClass=\"WifiVol\""
+  :class "${actionsClass}"
+  (button
+  :onclick "notify-send hello"
+  (box
+  (volume)
+  (network)
+  )
+)
+  )
+)
+
+

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/Light/.config/wpg/wallpapers/buildings.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#01000D",
+        "foreground": "#c1ffff",
+        "cursor": "#c1ffff"
+    },
+    "colors": {
+        "color0": "#01000D",
+        "color1": "#1F2E8E",
+        "color2": "#414A73",
+        "color3": "#1D56A5",
+        "color4": "#4550BD",
+        "color5": "#AF42A6",
+        "color6": "#219DDD",
+        "color7": "#94d9ee",
+        "color8": "#05013e",
+        "color9": "#1c33c3",
+        "color10": "#4858a1",
+        "color11": "#186de3",
+        "color12": "#485aff",
+        "color13": "#f346e4",
+        "color14": "#1ad1ff",
+        "color15": "#c1ffff"
+    }
+}

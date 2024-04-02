@@ -1,0 +1,7 @@
+2024/03/12-10:12:17.167 35c3 Reusing MANIFEST /home/Light/.config/google-chrome/Default/IndexedDB/https_st.classoos.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/12-10:12:17.167 35c3 Recovering log #4
+2024/03/12-10:12:17.167 35c3 Reusing old log /home/Light/.config/google-chrome/Default/IndexedDB/https_st.classoos.com_0.indexeddb.leveldb/000004.log 
+2024/03/12-10:12:19.402 35c2 Level-0 table #8: started
+2024/03/12-10:12:19.403 35c2 Level-0 table #8: 569 bytes OK
+2024/03/12-10:12:19.404 35c2 Delete type=0 #4
+2024/03/12-10:12:19.404 35c2 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

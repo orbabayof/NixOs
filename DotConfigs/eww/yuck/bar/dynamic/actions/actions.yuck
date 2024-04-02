@@ -1,0 +1,15 @@
+(defwindow actions
+    :monitor 0 ;;Specify monitor
+    :stacking "fg"
+    :windowtype "dialog"
+    :wm-ignore false
+    :class "actions"
+    :geometry (geometry
+        :y "3.5%"
+        :x "0"
+        :width "40%"
+        :height "15%"
+        :anchor "top right"                
+    )
+    (label :text "")
+    )

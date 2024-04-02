@@ -1,0 +1,6 @@
+2024/03/09-10:32:25.916 fa8d Creating DB /home/Light/.config/google-chrome/Default/IndexedDB/https_st.classoos.com_0.indexeddb.leveldb since it was missing.
+2024/03/09-10:32:25.919 fa8d Reusing MANIFEST /home/Light/.config/google-chrome/Default/IndexedDB/https_st.classoos.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/09-10:32:28.973 fa8d Level-0 table #5: started
+2024/03/09-10:32:28.974 fa8d Level-0 table #5: 584 bytes OK
+2024/03/09-10:32:28.975 fa8d Delete type=0 #3
+2024/03/09-10:32:28.975 fa8d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

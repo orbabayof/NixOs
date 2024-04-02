@@ -1,0 +1,1 @@
+/home/Light/rice_assets/colors.sh

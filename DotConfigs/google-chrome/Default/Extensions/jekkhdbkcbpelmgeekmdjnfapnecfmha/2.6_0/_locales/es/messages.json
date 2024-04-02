@@ -1,0 +1,14 @@
+{
+   "ExtnMarket": {
+      "description": "Market",
+      "message": "es-es"
+   },
+   "extDescription": {
+      "description": "Description of this extension",
+      "message": "Mira la imagen de la página principal de Microsoft Bing y mucho más en la nueva pestaña."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Nueva pestaña de Microsoft Bing con la Búsqueda"
+   }
+}

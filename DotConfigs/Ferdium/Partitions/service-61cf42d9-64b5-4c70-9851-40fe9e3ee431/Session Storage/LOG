@@ -1,3 +1,4 @@
-2024/02/21-18:05:17.026 1bed3 Reusing MANIFEST /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Session Storage/MANIFEST-000001
-2024/02/21-18:05:17.026 1bed3 Recovering log #3
-2024/02/21-18:05:17.027 1bed3 Reusing old log /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Session Storage/000003.log 
+2024/04/02-07:19:53.607 153f Reusing MANIFEST /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Session Storage/MANIFEST-000001
+2024/04/02-07:19:53.607 153f Recovering log #3
+2024/04/02-07:19:53.608 153f (ignoring error) /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Session Storage/000003.log: dropping 7358 bytes; Corruption: checksum mismatch
+2024/04/02-07:19:53.608 153f Reusing old log /home/Light/.config/Ferdium/Partitions/service-61cf42d9-64b5-4c70-9851-40fe9e3ee431/Session Storage/000003.log 

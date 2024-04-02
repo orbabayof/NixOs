@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Get the list of available Wi-Fi connections using nmcli
+wifi_list=$(nmcli -t -f SSID device wifi list)
+
+# Loop through each line of the Wi-Fi list and print unique SSIDs
+while IFS=: read -r wifi_ssid; do
+    if [[ -n $wifi_ssid ]]; then
+        echo "$wifi_ssid"
+    fi
+done <<< "$wifi_list" | sort -u
+
+# Listen for new networks
+while true; do
+    # Monitor device events
+    if [[ -n $(nmcli device monitor) ]]; then
+        # Read and print new SSIDs
+        while IFS=: read -r wifi_ssid; do
+            if [[ -n $wifi_ssid ]]; then
+                echo "$wifi_ssid"
+            fi
+        done <<< "$wifi_list" | sort -u
+    fi
+done

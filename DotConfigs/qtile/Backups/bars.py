@@ -1,9 +1,8 @@
-from libqtile import bar, layout#, widget
+from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from libqtile import qtile
-from qtile_extras import widget
 
 from colors import nord_fox,gruvbox
 from unicodes import left_arrow,right_arrow

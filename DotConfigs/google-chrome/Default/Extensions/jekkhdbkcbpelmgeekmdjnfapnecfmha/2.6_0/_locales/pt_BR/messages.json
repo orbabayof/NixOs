@@ -1,0 +1,14 @@
+{
+   "ExtnMarket": {
+      "Description": "Market",
+      "message": "pt-br"
+   },
+   "extDescription": {
+      "description": "Description of this extension",
+      "message": "Veja a imagem da home page do Microsoft Bing e muito mais na nova guia."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": " Nova guia do Microsoft Bing com Pesquisa"
+   }
+}

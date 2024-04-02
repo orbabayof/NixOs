@@ -1,0 +1,13 @@
+(defvar wp0 "●")
+(defvar wp1 "○")
+(defvar wp2 "○")
+(defvar wp3 "○")
+(defvar wp4 "○")
+(defvar bar_class "bar_class")
+(defvar cancel " ")
+(defvar turnoff "")
+(defvar restart "")
+(defvar exit "󰗼")
+(defvar actionsClass "WifiVol")
+
+
