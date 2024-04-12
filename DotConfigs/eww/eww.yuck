@@ -1,5 +1,6 @@
 (include "yuck/bar/widgets.yuck")
 (include "yuck/bar/dynamic/actions/actions.yuck")
+(include "yuck/bar/dynamic/wifi/wifi.yuck")
 (defwindow bar
     :monitor 0 ;;Specify monitor
     :stacking "bg"
@@ -45,6 +46,7 @@
     )
     (powermenu)
 )
+
 
 
 

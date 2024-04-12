@@ -1,0 +1,34 @@
+(defwindow wifi
+    :monitor 0 ;;Specify monitor
+    :stacking "fg"
+    :windowtype "dialog"
+    :wm-ignore false
+    :class "actions"
+    :geometry (geometry
+        :y "-2%"
+        :x "-40"
+        :width "10%"
+        :height "30%"
+        :anchor "bottom right"                
+    )
+    (singleWIFI :WIFIname "lol")
+    )
+(defwidget singleWIFI [WIFIname]
+    (box
+    :space-evenly true
+    :hexpand true
+    (label
+    :halign "left"
+    :text "󰖩 "
+    )
+    (box
+    :halign "right"
+    (label
+    :halign "center"
+    :text "${WIFIname}"
+    )
+)
+)
+)
+
+

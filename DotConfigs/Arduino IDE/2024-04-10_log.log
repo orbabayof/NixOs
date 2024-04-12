@@ -1,0 +1,494 @@
+2024-04-10 17:59:51 Arduino IDE 2.3.2
+2024-04-10 17:59:51 Checking for frontend application configuration customizations. Module path: /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js, destination 'package.json': /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/package.json
+2024-04-10 17:59:51 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-04-10 17:59:51 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-04-10 17:59:51 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-04-10 17:59:51 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-04-10 17:59:51 Starting backend process. PID: 614343
+2024-04-10 17:59:51 Using browser-only version of superagent in non-browser environment
+2024-04-10 17:59:51 Configuration directory URI: 'file:///home/Light/.arduinoIDE'
+2024-04-10 17:59:51 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-04-10 17:59:51 2024-04-10T14:59:51.779Z root INFO Backend Object.initialize: 4.2 ms [Finished 0.380 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.780Z root INFO Backend Object.configure: 3.4 ms [Finished 0.380 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.780Z root INFO Backend s.onStart: 1.2 ms [Finished 0.380 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.781Z root INFO Backend s.configure: 0.3 ms [Finished 0.397 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.781Z root INFO Backend d.onStart: 0.2 ms [Finished 0.397 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.782Z root INFO Backend d.configure: 0.1 ms [Finished 0.397 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.782Z root INFO Backend d.initialize: 17.4 ms [Finished 0.397 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.783Z root INFO Backend c.onStart: 0.2 ms [Finished 0.397 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.783Z root INFO Backend a.configure: 1.7 ms [Finished 0.399 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.785Z config INFO >>> Initializing CLI configuration...
+2024-04-10 17:59:51 2024-04-10T14:59:51.785Z root INFO Backend c.initialize: 0.4 ms [Finished 0.399 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.785Z root INFO Backend R.onStart: 0.5 ms [Finished 0.400 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.785Z config INFO Loading CLI configuration from /home/Light/.arduinoIDE/arduino-cli.yaml...
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z daemon INFO Starting daemon from /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/resources/arduino-cli...
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend a.initialize: 0.3 ms [Finished 0.400 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend w.onStart: 0.8 ms [Finished 0.401 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend r.configure: 1.3 ms [Finished 0.401 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z discovery-log INFO start
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z discovery-log INFO start new deferred
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend d.initialize: 0.3 ms [Finished 0.401 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend y.onStart: 2.1 ms [Finished 0.403 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend r.configure: 2.0 ms [Finished 0.403 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend a.onStart: 0.3 ms [Finished 0.404 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend h.configure: 0.3 ms [Finished 0.404 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend s.configure: 0.1 ms [Finished 0.404 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.786Z root INFO Backend l.configure: 0.1 ms [Finished 0.405 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.787Z root INFO Theia app listening on http://127.0.0.1:43539.
+2024-04-10 17:59:51 2024-04-10T14:59:51.787Z root INFO Finished starting backend application: 1.6 ms [Finished 0.406 s after backend start]
+2024-04-10 17:59:51 Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:4893)
+    at __webpack_require__ (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:3181307)
+    at o._init (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1056504)
+    at o.onDidChangeKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1056854)
+    at t.onDidChangeKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1057232)
+    at a.onStart (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:1038270)
+    at M.startContributions (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:1051192)
+    at M.start (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:62488)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:681347
+2024-04-10 17:59:51 2024-04-10T14:59:51.788Z root WARN The local plugin referenced by local-dir:/home/Light/.arduinoIDE/plugins does not exist.
+2024-04-10 17:59:51 2024-04-10T14:59:51.788Z root WARN The local plugin referenced by local-dir:/home/Light/.arduinoIDE/extensions does not exist.
+2024-04-10 17:59:51 2024-04-10T14:59:51.793Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/Light/.arduino15","downloads":"/home/Light/.arduino15/staging","user":"/home/Light/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-04-10 17:59:51 2024-04-10T14:59:51.793Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-04-10 17:59:51 2024-04-10T14:59:51.793Z config INFO Loaded the CLI configuration.
+2024-04-10 17:59:51 2024-04-10T14:59:51.804Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/Light/.arduino15","sketchDirUri":"file:///home/Light/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-04-10 17:59:51 2024-04-10T14:59:51.804Z config INFO Validating the CLI configuration...
+2024-04-10 17:59:51 2024-04-10T14:59:51.806Z config INFO The CLI config is valid.
+2024-04-10 17:59:51 2024-04-10T14:59:51.806Z config INFO <<< Initialized the CLI configuration.
+2024-04-10 17:59:51 2024-04-10T14:59:51.816Z root INFO Resolve plugins list: 30.7 ms [Finished 0.434 s after backend start]
+2024-04-10 17:59:51 2024-04-10T14:59:51.844Z daemon INFO time="2024-04-10T17:59:51+03:00" level=info msg="Using config file: /home/Light/.arduinoIDE/arduino-cli.yaml"
+time="2024-04-10T17:59:51+03:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-04-10T17:59:51+03:00" level=info msg="Executing `arduino-cli daemon`"
+2024-04-10 17:59:51 2024-04-10T14:59:51.852Z daemon INFO Daemon is now listening on 127.0.0.1:35231
+{"IP":"127.0.0.1","Port":"35231"}
+2024-04-10 17:59:51 2024-04-10T14:59:51.852Z daemon INFO Daemon is running.
+2024-04-10 17:59:51 2024-04-10T14:59:51.955Z daemon INFO time="2024-04-10T17:59:51+03:00" level=info msg="Checking signature" index=/home/Light/.arduino15/package_index.json signatureFile=/home/Light/.arduino15/package_index.json.sig trusted=true
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading hardware from: /home/Light/.arduino15/packages"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading package arduino from: /home/Light/.arduino15/packages/arduino/hardware"
+time="2024-04-10T17:59:51+03:00" level=info msg="Missing signature file" index=/home/Light/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+time="2024-04-10T17:59:51+03:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2024-04-10T17:59:51+03:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded platform" platform="arduino:esp32@2.0.13"
+time="2024-04-10T17:59:51+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/arduino/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/arduino/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading package builtin from: /home/Light/.arduino15/packages/builtin"
+time="2024-04-10T17:59:51+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/builtin/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/builtin/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading package esp32 from: /home/Light/.arduino15/packages/esp32"
+time="2024-04-10T17:59:51+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/esp32/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/esp32/tools"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:esptool_py@4.5.1"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.11.0-esp32-20221026"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2024-04-10T17:59:51+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2024-04-10T17:59:51+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/packages/arduino/hardware/esp32/2.0.13/libraries location=platform
+time="2024-04-10T17:59:51+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-04-10T17:59:51+03:00" level=info msg="Loading libraries index file" index=/home/Light/.arduino15/library_index.json
+2024-04-10 17:59:52 2024-04-10T14:59:52.180Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/libraries location=ide
+time="2024-04-10T17:59:52+03:00" level=info msg="Adding libraries dir" dir=/home/Light/Arduino/libraries location=user
+2024-04-10 17:59:52 2024-04-10T14:59:52.287Z discovery-log INFO start resolved watching
+2024-04-10 17:59:52 2024-04-10T14:59:52.288Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="starting discovery builtin:dfu-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="starting discovery builtin:serial-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+time="2024-04-10T17:59:52+03:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+time="2024-04-10T17:59:52+03:00" level=info msg="started discovery builtin:dfu-discovery process"
+time="2024-04-10T17:59:52+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:dfu-discovery"
+2024-04-10 17:59:52 2024-04-10T14:59:52.299Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:dfu-discovery received message type: hello, message: OK, protocol version: 1"
+2024-04-10 17:59:52 2024-04-10T14:59:52.299Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="sending command START_SYNC to discovery builtin:dfu-discovery"
+2024-04-10 17:59:52 2024-04-10T14:59:52.299Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:dfu-discovery received message type: start_sync, message: OK"
+2024-04-10 17:59:52 2024-04-10T14:59:52.303Z daemon INFO time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-04-10T17:59:52+03:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-04-10T17:59:52+03:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2024-04-10T17:59:52+03:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2024-04-10 17:59:52 2024-04-10T14:59:52.602Z root INFO Deploy plugins list: 30.7 ms [Finished 1.220 s after backend start]
+2024-04-10 17:59:52 Opening channel for service path '/services/electron-window'.
+2024-04-10 17:59:53 Opening channel for service path '/services/ide-updater'.
+2024-04-10 17:59:53 2024-04-10T14:59:53.280Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 187.8 ms [Finished 1.378 s after frontend start]
+2024-04-10 17:59:53 2024-04-10T14:59:53.281Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-04-10 17:59:53 2024-04-10T14:59:53.281Z root ERROR Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:2625)
+    at __webpack_require__ (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:6343695)
+    at r._init (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3129843)
+    at r.getCurrentKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130042)
+    at t.getCurrentKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130449)
+    at s.getNativeLayoutSync (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155557)
+    at s.getNativeLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155498)
+    at u.onRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106909)
+    at c.requestHandler (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106728)
+    at c.handleRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1097795)
+2024-04-10 17:59:53 2024-04-10T14:59:53.281Z root ERROR TypeError: Cannot read properties of null (reading 'getKeyMap')
+    at r.getKeyMap (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3129928)
+    at t.getKeyMap (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130509)
+    at s.getNativeLayoutSync (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155594)
+    at s.getNativeLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155498)
+    at u.onRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106909)
+    at c.requestHandler (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106728)
+    at c.handleRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1097795)
+    at c.handleMessage (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1096046)
+    at /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1095619
+    at /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1062669
+2024-04-10 17:59:53 2024-04-10T14:59:53.400Z root INFO Start frontend contributions: 363.7 ms [Finished 1.499 s after frontend start]
+2024-04-10 17:59:53 2024-04-10T14:59:53.401Z root INFO Changed application state from 'init' to 'started_contributions'.
+2024-04-10 17:59:53 2024-04-10T14:59:53.410Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2024-04-10 17:59:53 2024-04-10T14:59:53.410Z root INFO >>> Restoring the layout state...
+2024-04-10 17:59:53 2024-04-10T14:59:53.411Z root INFO <<< Nothing to restore.
+2024-04-10 17:59:53 2024-04-10T14:59:53.437Z root INFO Initialize the workbench layout: 17.2 ms [Finished 1.543 s after frontend start]
+2024-04-10 17:59:53 2024-04-10T14:59:53.449Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2024-04-10 17:59:53 2024-04-10T14:59:53.472Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Waiting for backend deployment: 90.9 ms [Finished 1.585 s after frontend start]
+2024-04-10 17:59:53 2024-04-10T14:59:53.621Z root ERROR Request initAuthSession failed with error: The name org.freedesktop.secrets was not provided by any .service files Error: The name org.freedesktop.secrets was not provided by any .service files
+2024-04-10 17:59:53 2024-04-10T14:59:53.898Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473) starting instance
+2024-04-10 17:59:54 2024-04-10T14:59:54.351Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Sync of 23 plugins: 860.1 ms [Finished 2.446 s after frontend start]
+2024-04-10 17:59:54 2024-04-10T14:59:54.352Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Loading plugin contributions
+2024-04-10 17:59:54 2024-04-10T14:59:54.352Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Load contributions of 23 plugins: 19.7 ms [Finished 2.466 s after frontend start]
+2024-04-10 17:59:54 2024-04-10T14:59:54.455Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2024-04-10 17:59:54 2024-04-10T14:59:54.455Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2024-04-10 17:59:54 2024-04-10T14:59:54.614Z root INFO Replace loading indicator with ready workbench UI (animation): 1021.1 ms [Finished 2.586 s after frontend start]
+2024-04-10 17:59:54 2024-04-10T14:59:54.614Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2024-04-10 17:59:54 2024-04-10T14:59:54.614Z root WARN Linked preference "workbench.colorCustomizations" not found.
+2024-04-10 17:59:54 2024-04-10T14:59:54.615Z root INFO Frontend application start: 1330.1 ms [Finished 3.207 s after backend start]
+2024-04-10 17:59:54 Checking for update
+2024-04-10 17:59:54 2024-04-10T14:59:54.910Z root ERROR ---- !!!SLOW!!! DURATION: search took 272.081 ms. Args: [{"type":"Updatable"}] ----
+2024-04-10 17:59:54 2024-04-10T14:59:54.943Z daemon INFO time="2024-04-10T17:59:54+03:00" level=info msg="Updating libraries index"
+2024-04-10 17:59:54 2024-04-10T14:59:54.943Z daemon INFO time="2024-04-10T17:59:54+03:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-04-10 17:59:54 2024-04-10T14:59:54.948Z daemon INFO time="2024-04-10T17:59:54+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-04-10 17:59:54 2024-04-10T14:59:54.948Z daemon INFO time="2024-04-10T17:59:54+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-10 17:59:54 2024-04-10T14:59:54.950Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-04-10 17:59:54 2024-04-10T14:59:54.950Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-04-10 17:59:55 2024-04-10T14:59:55.034Z root ERROR [hosted-plugin: 614473] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+2024-04-10 17:59:55 2024-04-10T14:59:55.034Z root ERROR [hosted-plugin: 614473] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+2024-04-10 17:59:55 2024-04-10T14:59:55.034Z root ERROR [hosted-plugin: 614473] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+2024-04-10 17:59:55 2024-04-10T14:59:55.034Z root ERROR [hosted-plugin: 614473] Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2024-04-10 17:59:55 2024-04-10T14:59:55.047Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): PluginManagerExtImpl/init()
+2024-04-10 17:59:55 2024-04-10T14:59:55.048Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-arduino-api@0.1.2 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.093Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(cortex-debug@1.5.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.093Z root INFO [hosted-plugin: 614473] Debugger contribution has been registered: cortex-debug
+2024-04-10 17:59:55 2024-04-10T14:59:55.094Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-arduino-tools@0.1.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.094Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(cpp@1.52.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.095Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(json@1.46.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.095Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(json-language-features@1.46.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.096Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-bg@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.096Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-cs@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.097Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-de@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.098Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-es@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.098Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-fr@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.099Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-hu@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.099Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-it@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.099Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-ja@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.099Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-ko@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-nl@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-pl@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-pt-BR@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-ru@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-tr@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-uk@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.100Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-zh-hans@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.101Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): initializing(vscode-language-pack-zh-hant@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 17:59:55 2024-04-10T14:59:55.104Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2024-04-10 17:59:55 2024-04-10T14:59:55.106Z root INFO [hosted-plugin: 614473] calling activation function on Arduino IDE API for VS Code extensions
+2024-04-10 17:59:55 2024-04-10T14:59:55.108Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2024-04-10 17:59:55 2024-04-10T14:59:55.129Z root INFO [hosted-plugin: 614473] calling activation function on JSON Language Features (built-in)
+2024-04-10 17:59:55 2024-04-10T14:59:55.131Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Starting plugins.
+2024-04-10 17:59:55 2024-04-10T14:59:55.144Z root INFO [hosted-plugin: 614473] PLUGIN_HOST(614473): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2024-04-10 17:59:55 2024-04-10T14:59:55.167Z root INFO [hosted-plugin: 614473] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2024-04-10 17:59:55 2024-04-10T14:59:55.168Z root INFO [hosted-plugin: 614473] calling activation function on Cortex-Debug
+2024-04-10 17:59:55 2024-04-10T14:59:55.170Z root INFO [hosted-plugin: 614473] GDB server console created
+2024-04-10 17:59:55 2024-04-10T14:59:55.173Z root INFO [5824d222-c2af-4090-8a76-a8ffbb6d2070] Start of 23 plugins: 813.3 ms [Finished 3.289 s after frontend start]
+2024-04-10 17:59:56 Update for version 2.3.2 is not available (latest version: 2.3.2, downgrade is allowed).
+2024-04-10 17:59:56 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024310-614343-kx49kx.px8aj/sketch_apr10a
+2024-04-10 17:59:56 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024310-614343-kx49kx.px8aj/sketch_apr10a.
+2024-04-10 17:59:56 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024310-614343-kx49kx.px8aj/sketch_apr10a
+2024-04-10 17:59:56 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024310-614343-kx49kx.px8aj/sketch_apr10a.
+2024-04-10 17:59:56 Closing channel on service path '/services/electron-window'.
+2024-04-10 17:59:56 Closing channel on service path '/services/ide-updater'.
+2024-04-10 17:59:56 Stored workspaces roots: 
+2024-04-10 17:59:56 No sketches were scheduled for deletion.
+2024-04-10 18:00:58 Arduino IDE 2.3.2
+2024-04-10 18:00:58 Checking for frontend application configuration customizations. Module path: /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js, destination 'package.json': /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/package.json
+2024-04-10 18:00:59 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-04-10 18:00:59 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-04-10 18:00:59 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-04-10 18:00:59 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-04-10 18:00:59 Starting backend process. PID: 615977
+2024-04-10 18:00:59 Using browser-only version of superagent in non-browser environment
+2024-04-10 18:00:59 Configuration directory URI: 'file:///home/Light/.arduinoIDE'
+2024-04-10 18:00:59 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-04-10 18:00:59 2024-04-10T15:00:59.452Z root INFO Backend Object.initialize: 3.1 ms [Finished 0.383 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.453Z root INFO Backend Object.configure: 2.5 ms [Finished 0.383 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.453Z root INFO Backend s.onStart: 1.3 ms [Finished 0.383 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.453Z root INFO Backend s.configure: 0.3 ms [Finished 0.401 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.454Z root INFO Backend d.onStart: 0.2 ms [Finished 0.401 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.454Z root INFO Backend d.configure: 0.1 ms [Finished 0.402 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.455Z root INFO Backend d.initialize: 18.4 ms [Finished 0.402 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.455Z root INFO Backend c.onStart: 0.2 ms [Finished 0.402 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.455Z root INFO Backend a.configure: 0.4 ms [Finished 0.402 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.456Z config INFO >>> Initializing CLI configuration...
+2024-04-10 18:00:59 2024-04-10T15:00:59.456Z root INFO Backend c.initialize: 0.4 ms [Finished 0.402 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.456Z root INFO Backend R.onStart: 0.5 ms [Finished 0.403 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z config INFO Loading CLI configuration from /home/Light/.arduinoIDE/arduino-cli.yaml...
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z daemon INFO Starting daemon from /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/resources/arduino-cli...
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend a.initialize: 0.3 ms [Finished 0.403 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend w.onStart: 0.8 ms [Finished 0.404 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend r.configure: 1.2 ms [Finished 0.404 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z discovery-log INFO start
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z discovery-log INFO start new deferred
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend d.initialize: 0.3 ms [Finished 0.404 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend y.onStart: 1.5 ms [Finished 0.406 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.457Z root INFO Backend r.configure: 1.4 ms [Finished 0.406 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.458Z root INFO Backend a.onStart: 0.4 ms [Finished 0.407 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.458Z root INFO Backend h.configure: 0.3 ms [Finished 0.407 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.458Z root INFO Backend s.configure: 0.1 ms [Finished 0.407 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.458Z root INFO Backend l.configure: 0.1 ms [Finished 0.407 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.459Z root INFO Theia app listening on http://127.0.0.1:45913.
+2024-04-10 18:00:59 2024-04-10T15:00:59.459Z root INFO Finished starting backend application: 1.6 ms [Finished 0.408 s after backend start]
+2024-04-10 18:00:59 Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:4893)
+    at __webpack_require__ (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:3181307)
+    at o._init (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1056504)
+    at o.onDidChangeKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1056854)
+    at t.onDidChangeKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:8:1057232)
+    at a.onStart (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:1038270)
+    at M.startContributions (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:1051192)
+    at M.start (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:62488)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/electron-main.js:2:681347
+2024-04-10 18:00:59 2024-04-10T15:00:59.460Z root WARN The local plugin referenced by local-dir:/home/Light/.arduinoIDE/plugins does not exist.
+2024-04-10 18:00:59 2024-04-10T15:00:59.460Z root WARN The local plugin referenced by local-dir:/home/Light/.arduinoIDE/extensions does not exist.
+2024-04-10 18:00:59 2024-04-10T15:00:59.488Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/Light/.arduino15","downloads":"/home/Light/.arduino15/staging","user":"/home/Light/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-04-10 18:00:59 2024-04-10T15:00:59.488Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-04-10 18:00:59 2024-04-10T15:00:59.488Z config INFO Loaded the CLI configuration.
+2024-04-10 18:00:59 2024-04-10T15:00:59.494Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/Light/.arduino15","sketchDirUri":"file:///home/Light/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-04-10 18:00:59 2024-04-10T15:00:59.494Z config INFO Validating the CLI configuration...
+2024-04-10 18:00:59 2024-04-10T15:00:59.495Z config INFO The CLI config is valid.
+2024-04-10 18:00:59 2024-04-10T15:00:59.495Z config INFO <<< Initialized the CLI configuration.
+2024-04-10 18:00:59 2024-04-10T15:00:59.503Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="Using config file: /home/Light/.arduinoIDE/arduino-cli.yaml"
+time="2024-04-10T18:00:59+03:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-04-10T18:00:59+03:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:41241
+{"IP":"127.0.0.1","Port":"41241"}
+2024-04-10 18:00:59 2024-04-10T15:00:59.503Z daemon INFO Daemon is running.
+2024-04-10 18:00:59 2024-04-10T15:00:59.520Z root INFO Resolve plugins list: 62.4 ms [Finished 0.468 s after backend start]
+2024-04-10 18:00:59 2024-04-10T15:00:59.529Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="Checking signature" index=/home/Light/.arduino15/package_index.json signatureFile=/home/Light/.arduino15/package_index.json.sig trusted=true
+2024-04-10 18:00:59 2024-04-10T15:00:59.532Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="Loading hardware from: /home/Light/.arduino15/packages"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading package arduino from: /home/Light/.arduino15/packages/arduino/hardware"
+time="2024-04-10T18:00:59+03:00" level=info msg="Missing signature file" index=/home/Light/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+2024-04-10 18:00:59 2024-04-10T15:00:59.534Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2024-04-10T18:00:59+03:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded platform" platform="arduino:esp32@2.0.13"
+time="2024-04-10T18:00:59+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/arduino/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/arduino/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading package builtin from: /home/Light/.arduino15/packages/builtin"
+time="2024-04-10T18:00:59+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/builtin/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/builtin/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.14.1"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading package esp32 from: /home/Light/.arduino15/packages/esp32"
+time="2024-04-10T18:00:59+03:00" level=info msg="Checking existence of 'tools' path: /home/Light/.arduino15/packages/esp32/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading tools from dir: /home/Light/.arduino15/packages/esp32/tools"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:esptool_py@4.5.1"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.11.0-esp32-20221026"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2024-04-10T18:00:59+03:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2024-04-10T18:00:59+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/packages/arduino/hardware/esp32/2.0.13/libraries location=platform
+time="2024-04-10T18:00:59+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2024-04-10T18:00:59+03:00" level=info msg="Loading libraries index file" index=/home/Light/.arduino15/library_index.json
+2024-04-10 18:00:59 2024-04-10T15:00:59.748Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="Adding libraries dir" dir=/home/Light/.arduino15/libraries location=ide
+time="2024-04-10T18:00:59+03:00" level=info msg="Adding libraries dir" dir=/home/Light/Arduino/libraries location=user
+2024-04-10 18:00:59 2024-04-10T15:00:59.750Z discovery-log INFO start resolved watching
+2024-04-10 18:00:59 2024-04-10T15:00:59.751Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="starting discovery builtin:dfu-discovery process"
+2024-04-10 18:00:59 2024-04-10T15:00:59.751Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2024-04-10T18:00:59+03:00" level=info msg="starting discovery builtin:serial-discovery process"
+2024-04-10 18:00:59 2024-04-10T15:00:59.753Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:serial-discovery"
+time="2024-04-10T18:00:59+03:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:mdns-discovery"
+time="2024-04-10T18:00:59+03:00" level=info msg="started discovery builtin:dfu-discovery process"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.35.3\" to discovery builtin:dfu-discovery"
+time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:dfu-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command START_SYNC to discovery builtin:dfu-discovery"
+2024-04-10 18:00:59 2024-04-10T15:00:59.755Z daemon INFO time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:dfu-discovery received message type: start_sync, message: OK"
+time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2024-04-10T18:00:59+03:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2024-04-10T18:00:59+03:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2024-04-10 18:01:00 2024-04-10T15:01:00.156Z root INFO Deploy plugins list: 62.4 ms [Finished 1.106 s after backend start]
+2024-04-10 18:01:00 Opening channel for service path '/services/electron-window'.
+2024-04-10 18:01:00 Opening channel for service path '/services/ide-updater'.
+2024-04-10 18:01:00 2024-04-10T15:01:00.757Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 187.1 ms [Finished 1.223 s after frontend start]
+2024-04-10 18:01:00 2024-04-10T15:01:00.757Z root ERROR Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:2625)
+    at __webpack_require__ (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:6343695)
+    at r._init (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3129843)
+    at r.getCurrentKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130042)
+    at t.getCurrentKeyboardLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130449)
+    at s.getNativeLayoutSync (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155557)
+    at s.getNativeLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155498)
+    at u.onRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106909)
+    at c.requestHandler (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106728)
+    at c.handleRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1097795)
+2024-04-10 18:01:00 2024-04-10T15:01:00.757Z root ERROR TypeError: Cannot read properties of null (reading 'getKeyMap')
+    at r.getKeyMap (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3129928)
+    at t.getKeyMap (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:3130509)
+    at s.getNativeLayoutSync (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155594)
+    at s.getNativeLayout (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1155498)
+    at u.onRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106909)
+    at c.requestHandler (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1106728)
+    at c.handleRequest (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1097795)
+    at c.handleMessage (/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1096046)
+    at /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1095619
+    at /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/main.js:2:1062669
+2024-04-10 18:01:00 2024-04-10T15:01:00.757Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-04-10 18:01:00 2024-04-10T15:01:00.881Z root INFO Start frontend contributions: 351.2 ms [Finished 1.342 s after frontend start]
+2024-04-10 18:01:00 2024-04-10T15:01:00.881Z root INFO Changed application state from 'init' to 'started_contributions'.
+2024-04-10 18:01:00 2024-04-10T15:01:00.895Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2024-04-10 18:01:00 2024-04-10T15:01:00.895Z root INFO >>> Restoring the layout state...
+2024-04-10 18:01:00 2024-04-10T15:01:00.895Z root INFO <<< Nothing to restore.
+2024-04-10 18:01:00 2024-04-10T15:01:00.928Z root INFO Initialize the workbench layout: 24.2 ms [Finished 1.403 s after frontend start]
+2024-04-10 18:01:00 2024-04-10T15:01:00.940Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2024-04-10 18:01:00 2024-04-10T15:01:00.963Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Waiting for backend deployment: 107.9 ms [Finished 1.446 s after frontend start]
+2024-04-10 18:01:01 2024-04-10T15:01:01.369Z root ERROR Request initAuthSession failed with error: The name org.freedesktop.secrets was not provided by any .service files Error: The name org.freedesktop.secrets was not provided by any .service files
+2024-04-10 18:01:01 2024-04-10T15:01:01.373Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123) starting instance
+2024-04-10 18:01:01 2024-04-10T15:01:01.800Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Sync of 23 plugins: 817.3 ms [Finished 2.263 s after frontend start]
+2024-04-10 18:01:01 2024-04-10T15:01:01.801Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Loading plugin contributions
+2024-04-10 18:01:01 2024-04-10T15:01:01.801Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Load contributions of 23 plugins: 20.2 ms [Finished 2.283 s after frontend start]
+2024-04-10 18:01:01 2024-04-10T15:01:01.896Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2024-04-10 18:01:01 2024-04-10T15:01:01.896Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2024-04-10 18:01:02 2024-04-10T15:01:02.050Z root INFO Replace loading indicator with ready workbench UI (animation): 972.4 ms [Finished 2.397 s after frontend start]
+2024-04-10 18:01:02 2024-04-10T15:01:02.050Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2024-04-10 18:01:02 2024-04-10T15:01:02.050Z root WARN Linked preference "workbench.colorCustomizations" not found.
+2024-04-10 18:01:02 2024-04-10T15:01:02.052Z root INFO Frontend application start: 1289.1 ms [Finished 2.972 s after backend start]
+2024-04-10 18:01:02 Checking for update
+2024-04-10 18:01:02 2024-04-10T15:01:02.345Z root ERROR ---- !!!SLOW!!! DURATION: search took 273.473 ms. Args: [{"type":"Updatable"}] ----
+2024-04-10 18:01:02 2024-04-10T15:01:02.394Z daemon INFO time="2024-04-10T18:01:02+03:00" level=info msg="Updating libraries index"
+time="2024-04-10T18:01:02+03:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-04-10T18:01:02+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-04-10 18:01:02 2024-04-10T15:01:02.394Z daemon INFO time="2024-04-10T18:01:02+03:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-10 18:01:02 2024-04-10T15:01:02.395Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-04-10 18:01:02 2024-04-10T15:01:02.395Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-04-10 18:01:02 2024-04-10T15:01:02.486Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.487Z root ERROR [hosted-plugin: 616123] Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2024-04-10 18:01:02 2024-04-10T15:01:02.495Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): PluginManagerExtImpl/init()
+2024-04-10 18:01:02 2024-04-10T15:01:02.496Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-arduino-api@0.1.2 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.542Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(cortex-debug@1.5.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.542Z root INFO [hosted-plugin: 616123] Debugger contribution has been registered: cortex-debug
+2024-04-10 18:01:02 2024-04-10T15:01:02.543Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-arduino-tools@0.1.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.543Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(cpp@1.52.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.544Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(json@1.46.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.544Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(json-language-features@1.46.1 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.545Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-bg@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.546Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-cs@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.546Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-de@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.547Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-es@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.547Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-fr@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.548Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-hu@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.548Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-it@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.549Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-ja@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.549Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-ko@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.549Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-nl@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.549Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-pl@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.549Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-pt-BR@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.550Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-ru@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.550Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-tr@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.550Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-uk@1.48.3 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.550Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-zh-hans@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.550Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): initializing(vscode-language-pack-zh-hant@1.80.0 with /nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/lib/backend/plugin-vscode-init)
+2024-04-10 18:01:02 2024-04-10T15:01:02.554Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2024-04-10 18:01:02 2024-04-10T15:01:02.556Z root INFO [hosted-plugin: 616123] calling activation function on Arduino IDE API for VS Code extensions
+2024-04-10 18:01:02 2024-04-10T15:01:02.558Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2024-04-10 18:01:02 2024-04-10T15:01:02.579Z root INFO [hosted-plugin: 616123] calling activation function on JSON Language Features (built-in)
+2024-04-10 18:01:02 2024-04-10T15:01:02.580Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Starting plugins.
+2024-04-10 18:01:02 2024-04-10T15:01:02.589Z root INFO [hosted-plugin: 616123] PLUGIN_HOST(616123): PluginManagerExtImpl/loadPlugin(/nix/store/ayp91ymzffmakf3nfm4i3q81hs6ggjz3-arduino-ide-2.3.2-extracted/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2024-04-10 18:01:02 2024-04-10T15:01:02.612Z root INFO [hosted-plugin: 616123] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2024-04-10 18:01:02 2024-04-10T15:01:02.613Z root INFO [hosted-plugin: 616123] calling activation function on Cortex-Debug
+2024-04-10 18:01:02 2024-04-10T15:01:02.615Z root INFO [hosted-plugin: 616123] GDB server console created
+2024-04-10 18:01:02 2024-04-10T15:01:02.619Z root INFO [bbfcf3d1-4013-4582-b937-e3ee00a23ef7] Start of 23 plugins: 809.3 ms [Finished 3.103 s after frontend start]
+2024-04-10 18:01:03 Update for version 2.3.2 is not available (latest version: 2.3.2, downgrade is allowed).
+2024-04-10 18:01:05 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024310-615977-z0ykc9.2nhcd/sketch_apr10a
+2024-04-10 18:01:05 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024310-615977-z0ykc9.2nhcd/sketch_apr10a.
+2024-04-10 18:01:05 isTempSketch: true. Input was /tmp/.arduinoIDE-unsaved2024310-615977-z0ykc9.2nhcd/sketch_apr10a
+2024-04-10 18:01:05 Ignored marking workspace as a closed sketch. The sketch was detected as temporary. Workspace URI: file:///tmp/.arduinoIDE-unsaved2024310-615977-z0ykc9.2nhcd/sketch_apr10a.
+2024-04-10 18:01:05 Closing channel on service path '/services/electron-window'.
+2024-04-10 18:01:05 Closing channel on service path '/services/ide-updater'.
+2024-04-10 18:01:05 Stored workspaces roots: 
+2024-04-10 18:01:05 No sketches were scheduled for deletion.

@@ -7,9 +7,9 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+    #  ./focalboard.nix
     #  ./nixnvim.nix
-    #  ./nixvimconf.nix
-      
+    #  ./nixvimconf.nix 
     ];  
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
@@ -50,6 +50,13 @@
    services.xserver.enable = true;
 
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.overlays = [
+    (self: super: {
+      unstable = import (fetchTarball {
+        url = "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
+      }) { inherit pkgs; config.allowUnfree = true; };
+    })
+  ];
   services.xserver = {
   layout = "us,il";
   xkbVariant = "workman";
@@ -63,9 +70,8 @@
   windowManager = {
 	dwm.enable = true;
 	qtile.enable = true;
-	qtile.extraPackages = python311Packages: with python311Packages; [
- 	 (qtile-extras.overridePythonAttrs(old: { disabledTestPaths = [ "test/widget/test_strava.py" ]; })) #workarounbd for strava test not working, strava will not work
-	];
+#	qtile.extraPackages = python311Packages: with python311Packages; [
+ #	 (qtile-extras.overridePythonAttrs(old: { disabledTestPaths = [ "test/widget/test_strava.py" ];})) #workarounbd for strava test not working, strava will not work];
 	
 	#enabling bspwm 
 	bspwm  = {
@@ -132,7 +138,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
    users.users.Light = {
      isNormalUser = true;
-     extraGroups = [ "wheel" "audio" ]; # Enable ‘sudo’ and audio devices for Light.
+     extraGroups = [ "wheel" "audio" "docker" "networkmanager"]; # Enable ‘sudo’ and audio devices for Light.
      packages = with pkgs; [
   #     tree
      ];
@@ -141,6 +147,15 @@
    services.mysql.package = pkgs.mariadb;
    programs.thunar.enable = true; 
     
+   virtualisation = {
+   docker.enable = true;
+   podman = { # Needed for distrobox
+      enable = true;
+      #dockerCompat = true;
+      defaultNetwork.settings.dns_enabled = true;
+    };
+   };
+	
   # List packages installed in system profile. To search, run:
   # $ nix search wget
    environment.systemPackages = with pkgs; [
@@ -157,12 +172,11 @@
      pamixer
      ferdium
      zip
-     arduino
      vscode
      brightnessctl
      gscreenshot
      dotnet-sdk_8
-     todoist-electron
+     unstable.todoist-electron
      discord
      xournalpp
      arandr
@@ -207,6 +221,19 @@
      ayu-theme-gtk
      unzip
      obs-studio
+     unstable.arduino-ide
+     arduino-cli
+     #arduino
+     devour
+     unstable.ags
+     libgccjit
+     waybar
+     typescript
+     nodePackages.typescript-language-server
+     appflowy
+     distrobox
+     docker
+     calcurse
    ];
   fonts.packages = with pkgs; [
   noto-fonts

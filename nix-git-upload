@@ -1,0 +1,11 @@
+#!/bin/sh
+cd NixOs/
+sudo cp ../../../etc/nixos/* NixOsconf/ -r
+sudo cp ../.config/* DotConfigs/ -r
+sudo rm -rf DotConfigs/Code/ 
+sudo rm -rf DotConfigs/discord/
+sudo cp ../.Xresources HomeDir/
+sudo git add *
+sudo git commit -m "automated upload"
+git push
+ 
