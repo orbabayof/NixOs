@@ -1,22 +1,3 @@
-2024/04/01-17:23:33.561 18ea8 Reusing MANIFEST /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/01-17:23:33.561 18ea8 Recovering log #275
-2024/04/01-17:23:33.566 18ea8 Reusing old log /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/000275.log 
-2024/04/01-17:23:34.077 18ec6 Compacting 2@0 + 1@1 files
-2024/04/01-17:23:34.080 18ec6 Generated table #278@0: 638 keys, 36940 bytes
-2024/04/01-17:23:34.080 18ec6 Compacted 2@0 + 1@1 files => 36940 bytes
-2024/04/01-17:23:34.081 18ec6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/01-17:23:34.081 18ec6 Delete type=2 #276
-2024/04/01-17:23:34.081 18ec6 Delete type=2 #274
-2024/04/01-17:23:34.081 18ec6 Delete type=2 #272
-2024/04/01-17:23:40.059 18ea9 Level-0 table #280: started
-2024/04/01-17:23:40.063 18ea9 Level-0 table #280: 785925 bytes OK
-2024/04/01-17:23:40.064 18ea9 Delete type=0 #275
-2024/04/01-17:55:48.916 18ea8 Compacting 1@0 + 1@1 files
-2024/04/01-17:55:48.920 18ea8 Generated table #281@0: 938 keys, 42045 bytes
-2024/04/01-17:55:48.920 18ea8 Compacted 1@0 + 1@1 files => 42045 bytes
-2024/04/01-17:55:48.920 18ea8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/01-17:55:48.921 18ea8 Delete type=2 #278
-2024/04/01-17:55:48.921 18ea8 Delete type=2 #280
-2024/04/01-18:53:34.417 18ea9 Level-0 table #283: started
-2024/04/01-18:53:34.423 18ea9 Level-0 table #283: 756176 bytes OK
-2024/04/01-18:53:34.426 18ea9 Delete type=0 #279
+2024/04/12-16:25:44.275 27e2d Reusing MANIFEST /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/12-16:25:44.275 27e2d Recovering log #345
+2024/04/12-16:25:44.276 27e2d Reusing old log /home/Light/.config/Todoist/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/000345.log 

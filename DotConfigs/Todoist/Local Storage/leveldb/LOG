@@ -1,21 +1,5 @@
-2024/04/02-07:18:55.821 1140 Reusing MANIFEST /home/Light/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
-2024/04/02-07:18:55.821 1140 Recovering log #96
-2024/04/02-07:18:55.822 1140 Reusing old log /home/Light/.config/Todoist/Local Storage/leveldb/000096.log 
-2024/04/02-07:22:05.458 1141 Level-0 table #100: started
-2024/04/02-07:22:05.464 1141 Level-0 table #100: 18162 bytes OK
-2024/04/02-07:22:05.465 1141 Delete type=0 #96
-2024/04/02-07:56:18.206 1140 Level-0 table #102: started
-2024/04/02-07:56:18.212 1140 Level-0 table #102: 15962 bytes OK
-2024/04/02-07:56:18.213 1140 Delete type=0 #99
-2024/04/02-10:24:24.132 1140 Level-0 table #104: started
-2024/04/02-10:24:24.138 1140 Level-0 table #104: 10859 bytes OK
-2024/04/02-10:24:24.140 1140 Delete type=0 #101
-2024/04/02-10:24:24.140 1140 Compacting 4@0 + 1@1 files
-2024/04/02-10:24:24.149 1140 Generated table #105@0: 20 keys, 11867 bytes
-2024/04/02-10:24:24.149 1140 Compacted 4@0 + 1@1 files => 11867 bytes
-2024/04/02-10:24:24.153 1140 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/02-10:24:24.153 1140 Delete type=2 #102
-2024/04/02-10:24:24.153 1140 Delete type=2 #94
-2024/04/02-10:24:24.153 1140 Delete type=2 #104
-2024/04/02-10:24:24.153 1140 Delete type=2 #97
-2024/04/02-10:24:24.153 1140 Delete type=2 #100
+2024/04/12-16:25:50.627 28053 Reusing MANIFEST /home/Light/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
+2024/04/12-16:25:50.627 28053 Recovering log #123
+2024/04/12-16:25:50.627 28053 Level-0 table #125: started
+2024/04/12-16:25:50.628 28053 Level-0 table #125: 22443 bytes OK
+2024/04/12-16:25:50.630 28053 Delete type=0 #123

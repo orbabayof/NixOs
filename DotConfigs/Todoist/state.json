@@ -12,5 +12,15 @@
 	},
 	"user": {
 		"theme": 11
-	}
+	},
+	"windowPosition": [
+		960,
+		42
+	],
+	"windowSize": [
+		960,
+		1158
+	],
+	"time_format": "24",
+	"theme": 11
 }

@@ -11,7 +11,7 @@ configuration {
 }
 
 
-@theme "~/.config/rofi/nord.rasi"
+//@theme "~/.config/rofi/nord.rasi"
 
 listview {
 	lines: 10;
@@ -21,3 +21,5 @@ listview {
 window {
 	width: 65%;
 }
+//@theme "/nix/store/2dx025n6ndchkdi21d280js9izzkf066-rofi-1.7.5/share/rofi/themes/sidebar-v2.rasi"
+@theme "/nix/store/2dx025n6ndchkdi21d280js9izzkf066-rofi-1.7.5/share/rofi/themes/glue_pro_blue.rasi"

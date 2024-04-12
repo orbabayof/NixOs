@@ -3,3 +3,4 @@ if status is-interactive
 end
 set fish_greeting
 alias c "code"
+alias d "devour"
