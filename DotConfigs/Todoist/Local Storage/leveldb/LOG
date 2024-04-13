@@ -1,5 +1,0 @@
-2024/04/12-16:25:50.627 28053 Reusing MANIFEST /home/Light/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
-2024/04/12-16:25:50.627 28053 Recovering log #123
-2024/04/12-16:25:50.627 28053 Level-0 table #125: started
-2024/04/12-16:25:50.628 28053 Level-0 table #125: 22443 bytes OK
-2024/04/12-16:25:50.630 28053 Delete type=0 #123
